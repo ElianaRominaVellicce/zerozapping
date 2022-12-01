@@ -1,0 +1,25 @@
+.navbg{
+    background: black;
+}
+
+.mainEspacio{
+    margin-top: 150px;
+}
+
+.mainPrincipal{
+    margin-top: 107px;
+}
+
+.justificadoText{
+    text-align: justify;
+}
+
+.fraseNos{
+    width: 350px;
+    height: 350px;
+    background: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

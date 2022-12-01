@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ZeroZapping es el mejor blog de series y peliculas de estreno. Nuestras recomendaciones siempre son las mejores."
+    />
+    <meta name="keywords" content="series, peliculas, estrenos, reseñas" />
+    <meta name="name" content="Vellicce Eliana Romina" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/777b89e725.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ZeroZapping</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbg navbar-dark w-100 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/logozz.png"
+              alt="logo ZeroZapping"
+              width="180 px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarzz"
+            aria-controls="navbarzz"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarzz">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="estrenos.html">Estrenos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="acercadenosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html" aria-current="page">
+                  <button type="button" class="btn btn-info text-white">
+                    <i class="fa-solid fa-user"></i>
+                    Login
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="nav-link">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <i class="fa-solid fa-bell"></i>
+                    Suscribirse
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container mainEspacio">
+      <section class="row pb-5">
+        <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+          <div class="card w-75">
+            <div class="card-body">
+              <h5 class="card-title text-info">LOGIN</h5>
+              <p>
+                ¿No tienes cuenta?
+                <a href="#" class="text-decoration-none text-ifo"
+                  ><b>Registrate aquí</b></a
+                >
+              </p>
+              <form>
+                <div class="mb-3">
+                  <label for="inputUser" class="form-label"
+                    >Nombre de Usuario</label
+                  >
+                  <input type="text" class="form-control" id="inputUser" />
+                </div>
+                <div class="mb-3">
+                  <label for="inputContraseña" class="form-label"
+                    >Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputContraseña"
+                  />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-primary w-50">
+                    Ingresar
+                  </button>
+                </div>
+                <hr />
+                <div class="card-text">
+                  <p>Tambien puedes ingresar con:</p>
+                  <div class="mt-2 text-center">
+                    <a href="#" class="me-2"
+                      ><i
+                        class="fab fa-facebook fa-3x text-primary"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                    <a href="#" class="ms-2"
+                      ><i
+                        class="fab fa-google-plus fa-3x text-danger"
+                        aria-hidden="true"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center mt-2">
+                  <a
+                    href="#"
+                    class="text-decoration-none"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalOlvideContraseña"
+                    >¿Olvidaste tu contraseña?</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center"
+        >
+          <img
+            src="../img/move timr.jpg"
+            alt="imagen de Login"
+            class="d-none d-md-block w-75"
+          />
+        </div>
+      </section>
+    </main>
+    <!-- Modal Suscripción-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Suscribite a Nuestro Blog
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Únete a ZeroZapping para recibir notificaciones en tu mail de
+              cuando publiquemos un nuevo blog.
+            </p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="juanperez123@example.com"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Suscribirse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL RESTABLECER CONTRASEÑA-->
+    <div
+      class="modal fade"
+      id="modalOlvideContraseña"
+      tabindex="-1"
+      aria-labelledby="modalOlvideContraseñaLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-tittle" id="modalOlvideContraseñaLabel">
+              Restablece tu contraseña
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              Introduce tu nombre de usuario y un correo electronico el cual
+              usaremos para enviarte un código para restablecer tu contraseña.
+            </p>
+            <hr />
+            <div class="d-flex flex-column">
+              <label for="labelModalUsuario" class="form-label mt-2"
+                >Nombre de Usuario</label
+              >
+              <input
+                type="text"
+                id="labelModalUsuario"
+                placeholder="juan1234"
+                required
+              />
+            </div>
+            <label for="labelModalEmail" class="form-label mt-2"
+              >Correo electronico:</label
+            >
+            <input
+              type="email"
+              class="form-control mb-4"
+              id="labelModalEmail"
+              placeholder="ejemplo@gmail.com"
+              required
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancelar
+            </button>
+            <button type="submit" class="btn btn-primary" disabled>
+              Enviar código
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="navbg py-3">
+      <div class="row container">
+        <article
+          class="col-sm-12 col-md-5 d-flex justify-content-center align-items-center"
+        >
+          <img
+            src="../img/logozz.png"
+            alt="Logo de ZeroZapping"
+            width="200px"
+          />
+        </article>
+        <div class="col-sm-12 col-md-4 text-white">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acercadenosotros.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <article class="col-sm-12 col-md-3 text-white">
+          <h5>Seguinos en nuestras redes</h5>
+          <div class="centrar">
+            <a
+              href="error.html"
+              target="_blank"
+              class="me-2"
+            >
+              <i class="fa-brands fa-facebook-square fa-2x text-light"></i>
+            </a>
+            <a href="error.html" target="_blank">
+              <i class="fa-brands fa-instagram-square fa-2x text-light"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="text-center text-white mt-3">
+        ©Todos los derechos reservados. 2022
+      </p>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

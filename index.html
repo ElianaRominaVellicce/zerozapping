@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ZeroZapping es el mejor blog de series y peliculas de estreno. Nuestras recomendaciones siempre son las mejores."
+    />
+    <meta name="keywords" content="series, peliculas, estrenos, reseñas" />
+    <meta name="name" content="Vellicce Eliana Romina" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/777b89e725.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>ZeroZapping</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbg navbar-dark w-100 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logozz.png" alt="logo ZeroZapping" width="180 px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarzz"
+            aria-controls="navbarzz"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarzz">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fs-5"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="pages/estrenos.html">Estrenos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="pages/acercadenosotros.html"
+                  >Acerca de Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/login.html">
+                  <button type="button" class="btn btn-info text-white">
+                    <i class="fa-solid fa-user"></i>
+                    Login
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="nav-link" >
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <i class="fa-solid fa-bell"></i>
+                    Suscribirse
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mainPrincipal">
+      <section>
+        <div
+          id="sliderPaginaPrincipal"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#sliderPaginaPrincipal"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#sliderPaginaPrincipal"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#sliderPaginaPrincipal"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/slider1.png"
+                class="d-block w-100"
+                alt="Poster del blog"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider2.png"
+                class="d-block w-100"
+                alt="Poster del blog"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/slider3.png"
+                class="d-block w-100"
+                alt="Poster del blog"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#sliderPaginaPrincipal"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#sliderPaginaPrincipal"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="container mt-5">
+        <h1 class="display-1 text-center">ZERO ZAPPING</h1>
+        <hr />
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <h2 class="fs-2">TOP SERIES DE LA SEMANA</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="img/top1.jpg"
+                    class="card-img-top"
+                    alt="love is in the air"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Love is in the air</h5>
+                    <p class="card-text">
+                      Eda anhela convertirse en arquitecta. En su último año en
+                      la universidad, planeaba completar su formación en el
+                      extranjero, pero Serkan Bolat, un joven empresario, se
+                      interpone en su camino y se ve obligada a aparcar sus
+                      planes de futuro.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent border-top-0">
+                    <a href="pages/loveisintheair.html" class="btn btn-primary w-100">Ver más</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="img/top2.jpeg"
+                    class="card-img-top"
+                    alt="stranger things"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Stranger things 4</h5>
+                    <p class="card-text">
+                      La historia narra la súbita desaparición de un niño en una
+                      ciudad durante la década de los 80, hecho que destapa los
+                      extraños sucesos que tienen lugar en la zona, producto de
+                      una serie de experimentos que realiza el gobierno.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent border-top-0">
+                      <button type="button" class="btn btn-primary w-100" disabled>Ver más</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mb-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/top3.jpg" class="card-img-top" alt="the boys" />
+                  <div class="card-body">
+                    <h5 class="card-title">The boys 4</h5>
+                    <p class="card-text">
+                      ¿Qué pasa cuando los superhéroes abusan de sus
+                      superpoderes en lugar de utilizarlos para hacer el bien?
+                      The Boys es la adaptación televisiva de la obra de Garth
+                      Ennis que presenta un mundo superheróico donde los héroes
+                      están corrompidos por la fama. Esta actitud cegada y de
+                      alta celebridad les lleva a poner en peligro al mundo más
+                      de una vez.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent border-top-0">
+                    <button type="button" class="btn btn-primary w-100" disabled>Ver más</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="img/top4.jpg"
+                    class="card-img-top"
+                    alt="control z"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Control Z</h5>
+                    <p class="card-text">
+                      Control Z empieza cuando después de que un hacker comience
+                      a revelar los secretos más intimos de todos los
+                      estudiantes de la escuela del Colegio Nacional, incluidos
+                      los que están más arriba del orden social. Es entonces
+                      cuando los jóvenes más populares de esta prestigiosa
+                      escuela son acosados y los que estaban marginados, ahora
+                      ganan estatus entre todos los alumnos.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent border-top-0">
+                    <button type="button" class="btn btn-primary w-100" disabled>Ver más</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="pages/error.html" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="index.html">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="pages/error.html">2</a></li>
+                  <li class="page-item"><a class="page-link" href="pages/error.html">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="pages/error.html" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="mt-5">
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Busqueda"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-primary" type="submit">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </div>
+            <div class="my-4">
+              <h3 class="mb-3">CATEGORIAS</h3>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link"> Acción</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Aclamados por las criticas</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Animes</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Comedias</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">De Hollywood</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">De Latinoamérica</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Documentales</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Dramas</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Fantasia</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Hecho en Argentina</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Infantiles y Familiares</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Internacionales</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Música y musicales</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Romances</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="pages/error.html" class="nav-link">Terror</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-5">
+              <img
+                src="img/publicidad.jpg"
+                alt="publicidad de Mc"
+                class="w-100 d-none d-md-block"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Modal Suscripción-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suscribite a Nuestro Blog</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Únete a ZeroZapping para recibir notificaciones en tu mail de cuando publiquemos un nuevo blog.</p>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="juanperez123@example.com">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Suscribirse</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <footer class="navbg py-3">
+      <div class="row container">
+        <article
+          class="col-sm-12 col-md-5 d-flex justify-content-center align-items-center"
+        >
+          <img src="img/logozz.png" alt="Logo de ZeroZapping" width="200px" />
+        </article>
+        <div class="col-sm-12 col-md-4 text-white">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/acercadenosotros.html">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <article class="col-sm-12 col-md-3 text-white">
+          <h5>Seguinos en nuestras redes</h5>
+          <div class="centrar">
+            <a
+              href="pages/error.html"
+              target="_blank"
+              class="me-2"
+            >
+              <i class="fa-brands fa-facebook-square fa-2x text-light"></i>
+            </a>
+            <a href="pages/error.html" target="_blank">
+              <i class="fa-brands fa-instagram-square fa-2x text-light"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+      <p class="text-center text-white mt-3">
+        ©Todos los derechos reservados. 2022
+      </p>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
